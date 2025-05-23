@@ -9,7 +9,7 @@ const Navbar = () => {
     const navitems = [
         { id: 1, text: "Home" },
         { id: 2, text: "About" },
-        { id: 3, text: "PortFolio" },
+        { id: 3, text: "Portfolio" },
         { id: 4, text: "Experience" },  
         { id: 5, text: "Contact" }
     ];
@@ -21,7 +21,7 @@ const Navbar = () => {
                     <img src={pic} className="h-12 w-12 rounded-full" alt="" />
                     <h1 className="font-semibold text-xl">
                         Go<span className='text-green-500 text-2xl'>w</span>ri
-                        <p className='text-sm'>Webdeveloper</p>
+                        <p className='text-sm'>Full Stack developer,Coder</p>
                     </h1>  
                 </div>
                 <div>
